@@ -1,0 +1,19 @@
+.card {
+  all: unset;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 2px solid var(--color-info-500);
+  }
+}
+
+.primary {
+  content: ' ';
+
+  max-width: 420px;
+  max-height: 552px;
+  padding: 150px 120px;
+
+  background-color: #313131;
+  filter: drop-shadow(-1px -1px 2px rgb(0 0 0 / 10%)) drop-shadow(1px 1px 2px rgb(0 0 0 / 10%));
+}
